@@ -1,0 +1,91 @@
+{
+  "id": "tm-adv-phileasson",
+  "title": "tm-adv-phileasson",
+  "description": "Dieses Modul ist das allgemeine Phileasson Basismodul",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "10",
+    "verified": "10",
+    "maximum": "10"
+  },
+  "authors": [
+    {
+      "name": "tm"
+    }
+  ],
+  "packs": [
+    {
+      "name": "actors",
+      "label": "tm-adv-phileasson",
+      "path": "/packs/actors.db",
+      "entity": "Actor",
+      "type": "Actor",
+      "system": "dsa5"
+    },
+    {
+      "name": "adventure",
+      "label": "tm-adv-phileasson",
+      "path": "/packs/adventure.db",
+      "entity": "Adventure",
+      "type": "Adventure",
+      "system": "dsa5"
+    },
+    {
+      "name": "cards",
+      "label": "tm-adv-phileasson",
+      "path": "/packs/cards.db",
+      "entity": "Cards",
+      "type": "Cards"
+    },
+    {
+      "name": "items",
+      "label": "tm-adv-phileasson",
+      "path": "/packs/items.db",
+      "entity": "Item",
+      "type": "Item",
+      "system": "dsa5"
+    },
+    {
+      "name": "journals",
+      "label": "tm-adv-phileasson",
+      "path": "/packs/journals.db",
+      "entity": "JournalEntry",
+      "type": "JournalEntry"
+    },
+    {
+      "name": "macros",
+      "label": "tm-adv-phileasson",
+      "path": "/packs/macros.db",
+      "entity": "Macro",
+      "type": "Macro"
+    },
+    {
+      "name": "maps",
+      "label": "tm-adv-phileasson",
+      "path": "/packs/maps.db",
+      "entity": "Scene",
+      "type": "Scene"
+    },
+    {
+      "name": "playlists",
+      "label": "tm-adv-phileasson",
+      "path": "/packs/playlists.db",
+      "entity": "Playlist",
+      "type": "Playlist"
+    },
+    {
+      "name": "rolltables",
+      "label": "tm-adv-phileasson",
+      "path": "/packs/rolltables.db",
+      "entity": "RollTable",
+      "type": "RollTable"
+    }
+  ],
+  "esmodules": [
+    "./scripts/init.js"
+  ],
+  "url": "",
+  "manifest": "",
+  "download": "",
+  "manifestPlusVersion": "1.2.0"
+}
